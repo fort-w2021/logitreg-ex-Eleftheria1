@@ -30,7 +30,7 @@ observations with NA's will be omitted
 }
 \examples{
 fit_logitreg(
-  stats::model.matrix(~., data = mtcars[,-8]),
+  stats::model.matrix(~., data = mtcars[, -8]),
   mtcars$vs
 )
 }
